@@ -1,0 +1,99 @@
+.bg-asm-color {
+  background-color: #ff5d00;
+}
+.text-asm-color {
+  color: #ff5d00;
+}
+.icon-box {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.icon-box:hover {
+  background-color: rgba(255, 93, 0, 0.4) !important;
+}
+.danger-shadow {
+  box-shadow: -4px 0px 0px red;
+}
+.navs-hover:hover i,
+.navs-hover:hover span {
+  color: black !important;
+}
+
+.navs-hover button.active i,
+.navs-hover button.active span {
+  color: #ff5d00 !important ;
+}
+
+.navs-hover button.active {
+  border-bottom: 3px solid #ff5d00 !important;
+}
+.box-shadow {
+  box-shadow: inset 3px 0 0 0 #28a745;
+}
+
+.custom-btn {
+  background: linear-gradient(135deg, red 0%, #ff5d00 100%);
+  color: #fff;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.25s ease;
+}
+
+.custom-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #aa0000 0%, #b44200 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -1;
+}
+
+.custom-btn:hover::before {
+  opacity: 1;
+}
+
+.custom-btn:hover {
+  transform: scale(1.07);
+}
+
+.right-side {
+  max-height: 700px;
+  overflow-y: auto;
+  padding-right: 15px;
+}
+
+.tab-pane {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.right-side::-webkit-scrollbar,
+.tab-pane::-webkit-scrollbar {
+  width: 6px;
+}
+
+.right-side::-webkit-scrollbar-thumb,
+.tab-pane::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.m-6 {
+  margin-top: 100px;
+}
+
+.make-hover {
+  transition: all 0.3 ease;
+}
+.make-hover:hover i{
+  color: #ff5d00 !important;
+}
+.make-hover:hover span{
+  color: #ff5d00 !important;
+}
